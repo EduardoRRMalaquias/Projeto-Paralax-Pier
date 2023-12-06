@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+
+:root {
+  --fontegenerica: Verdana, Geneva, Tahoma, sans-serif;
+  --fonttitulos: "Passion One", sans-serif;
+  --fonttextos: "Sriracha";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: var(--fontegenerica);
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-family: var(--fonttitulos);
+  font-size: 8vw;
+}
+
+header p {
+  padding-bottom: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 5vw;
+  padding-left: 15vw;
+  font-size: 2.5vw;
+  font-family: var(--fonttextos);
+}
+
+.secao-paisagem {
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.secao-paisagem p {
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  max-width: 450;
+}
+
+#img1 {
+  background-image: url(img/Paisagem1.jpg);
+}
+
+#img2 {
+  background-image: url(img/Paisagem2.jpg);
+}
+
+#img3 {
+  background-image: url(img/Paisagem3.jpg);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
